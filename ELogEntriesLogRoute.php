@@ -1,6 +1,5 @@
 <?php
 
-Yii::import('ext.ELogEntriesLogRoute.vendors.lephp.*');
 require_once('LeLogger.php');
 
 /**
