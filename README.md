@@ -27,6 +27,7 @@ To use:
 ```
 
 4. Add the path to the yii-logentries/vendors to the import section in the main.conf e.g.
+
 ```php
     'import'=>array(
     		'application.models.*',
