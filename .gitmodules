@@ -1,3 +1,6 @@
 [submodule "vendor/lephp"]
 	path = vendor/lephp
 	url = https://github.com/logentries/le_php.git
+[submodule "vendors/lephp"]
+	path = vendors/lephp
+	url = https://github.com/logentries/le_php.git
