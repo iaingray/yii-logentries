@@ -6,8 +6,9 @@ Yii Wrapper for Logentries.com PHP Class
 To use:
 
 1. Download files to into Yii's extensions folder
-2. Generate an API key at Logentries.com
-3. Add the log route into the config file log section as follows:
+2. Get the le_php files (they are a git submodule, so git submodule init follosed by git submodule update)
+3. Generate an API key at Logentries.com
+4. Add the log route into the config file log section as follows:
 
 ```php
 'log'=>array(
@@ -26,7 +27,7 @@ To use:
 ),
 ```
 
-4. Add the path to the yii-logentries/vendors to the import section in the main.conf e.g.
+5. Add the path to the yii-logentries/vendors to the import section in the main.conf e.g.
 
 ```php
     'import'=>array(
