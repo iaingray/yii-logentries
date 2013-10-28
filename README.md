@@ -11,18 +11,18 @@ To use:
 
 ```php
 'log'=>array(
-'class'=>'CLogRouter',
-    'routes'=>
-    		array(
-	    		array(
-		    		'class'=>'CFileLogRoute',
-		    		'levels'=>'error, warning',
-			),
-            		array(
-                    		'class' => 'ext.yii-logentries.ELogEntriesLogRoute',
-                    		'leToken' => 'TOKEN HERE',
-            		),			
-	    	),
-	),
+  'class'=>'CLogRouter',
+   'routes'=>
+   array(
+     array(
+       'class'=>'CFileLogRoute',
+       'levels'=>'error, warning',
+        ),
+     array(
+        'class' => 'ext.yii-logentries.ELogEntriesLogRoute',
+        'leToken' => 'TOKEN HERE',
+        ),			
+    ),
+),
 ```
 
